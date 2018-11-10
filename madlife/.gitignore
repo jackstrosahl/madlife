@@ -18,13 +18,6 @@ lib
 lib64
 __pycache__
 
-# Other
-*.swp
-*.log
-*.pid
-*.restart
-*.db3
-
 # Installer logs
 pip-log.txt
 

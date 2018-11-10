@@ -1,0 +1,133 @@
+secret_settings.py file not found or failed to import.
+thub\madhacks-2018\evennia\evennia\server\server.py...
+18-11-10 15:47:46-06 Loaded.
+18-11-10 15:47:46-06 twistd 18.9.0 (c:\users\stros\documents\github\madhacks-2018\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 15:47:46-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 15:47:46-06 Webserver starting on 4005
+18-11-10 15:47:46-06 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+18-11-10 15:47:47-06 [..] Initial setup: Creating default channels ...
+18-11-10 15:47:47-06 [..] Initial setup: Running at_initial_setup() hook.
+18-11-10 15:47:47-06 [..] Initial setup: Gathering static resources using 'collectstatic'
+18-11-10 15:47:47-06 Copying 'C:\Users\Stros\Documents\GitHub\Madhacks-2018\madlife\web\static_overrides\README.md'
+18-11-10 15:47:47-06 Copying 'C:\Users\Stros\Documents\GitHub\Madhacks-2018\madlife\web\static_overrides\webclient\css\README.md'
+18-11-10 15:47:47-06 Copying 'C:\Users\Stros\Documents\GitHub\Madhacks-2018\madlife\web\static_overrides\webclient\js\README.md'
+18-11-10 15:47:47-06 Copying 'C:\Users\Stros\Documents\GitHub\Madhacks-2018\madlife\web\static_overrides\website\css\README.md'
+18-11-10 15:47:47-06 Copying 'C:\Users\Stros\Documents\GitHub\Madhacks-2018\madlife\web\static_overrides\website\images\README.md'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\css\base.css'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\css\changelists.css'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\css\dashboard.css'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\css\fonts.css'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\css\forms.css'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\css\login.css'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\css\rtl.css'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\css\widgets.css'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\fonts\LICENSE.txt'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\fonts\README.txt'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\fonts\Roboto-Bold-webfont.woff'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\fonts\Roboto-Light-webfont.woff'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\fonts\Roboto-Regular-webfont.woff'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\calendar-icons.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-addlink.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-alert.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-calendar.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-changelink.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-clock.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-deletelink.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-no.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-unknown-alt.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-unknown.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\icon-yes.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\inline-delete.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\LICENSE'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\README.txt'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\search.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\selector-icons.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\sorting-icons.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\tooltag-add.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\tooltag-arrowright.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\gis\move_vertex_off.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\img\gis\move_vertex_on.svg'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\actions.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\actions.min.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\calendar.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\cancel.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\change_form.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\collapse.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\collapse.min.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\core.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\inlines.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\inlines.min.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\jquery.init.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\popup_response.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\prepopulate.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\prepopulate.min.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\prepopulate_init.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\SelectBox.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\SelectFilter2.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\timeparse.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\urlify.js'
+18-11-10 15:47:47-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\admin\DateTimeShortcuts.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\admin\RelatedObjectLookups.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\vendor\jquery\jquery.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\vendor\jquery\jquery.min.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\vendor\jquery\LICENSE-JQUERY.txt'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\vendor\xregexp\LICENSE-XREGEXP.txt'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\vendor\xregexp\xregexp.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\django\contrib\admin\static\admin\js\vendor\xregexp\xregexp.min.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\css\app.css'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\css\custom.css'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\css\prosimii-print.css'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\css\prosimii-screen-alt.css'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\css\prosimii-screen.css'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\images\evennia_logo.png'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\images\evennia_logo_festive.png'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\images\favicon.ico'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\website\static\website\images\LICENCE'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\css\webclient.css'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\evennia.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\webclient_gui.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\default_in.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\default_out.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\default_unload.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\history.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\hotbuttons.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\notifications.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\oob.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\options.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\popups.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\js\plugins\splithandler.js'
+18-11-10 15:47:48-06 Copying 'c:\users\stros\documents\github\madhacks-2018\evennia\evennia\web\webclient\static\webclient\media\notification.wav'
+18-11-10 15:47:48-06 
+18-11-10 15:47:48-06 89 static files copied to 'C:\Users\Stros\Documents\GitHub\Madhacks-2018\madlife\web\static'.
+18-11-10 15:47:48-06 [..] Initial setup complete. Restarting Server once.
+18-11-10 15:47:48-06 Evennia Server successfully started.
+18-11-10 15:47:49-06 [..] Server disconnected from the portal.
+18-11-10 15:47:49-06 Main loop terminated.
+18-11-10 15:47:49-06 Server Shut Down.
+18-11-10 15:47:49-06 Server Shut Down.
+18-11-10 15:47:49-06 Loading c:\users\stros\documents\github\madhacks-2018\evennia\evennia\server\server.py...
+18-11-10 15:47:50-06 Loaded.
+18-11-10 15:47:50-06 twistd 18.9.0 (c:\users\stros\documents\github\madhacks-2018\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 15:47:50-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 15:47:50-06 Webserver starting on 4005
+18-11-10 15:47:50-06 Evennia Server successfully restarted in 'reset' mode.
+18-11-10 15:50:12-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 15:50:18-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 16:13:07-06 [..] Server disconnected from the portal.
+18-11-10 16:13:07-06 Main loop terminated.
+18-11-10 16:13:07-06 Server Shut Down.
+18-11-10 16:13:07-06 Server Shut Down.
+18-11-10 16:17:39-06 Loading c:\users\stros\documents\github\madhacks-2018\evennia\evennia\server\server.py...
+18-11-10 16:17:39-06 Loaded.
+18-11-10 16:17:39-06 twistd 18.9.0 (c:\users\stros\documents\github\madhacks-2018\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 16:17:39-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 16:17:39-06 Webserver starting on 4005
+18-11-10 16:17:39-06 Evennia Server successfully started.
+18-11-10 16:18:01-06 [..] Password succesfully changed for jack(account None).
+18-11-10 16:18:15-06 [..] Logged in: jack(account 2) 127.0.0.1 (1 session(s) total)
+18-11-10 16:18:40-06 [..] Logged out: jack(account 2) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 16:18:48-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 16:19:43-06 [..] Server disconnected from the portal.
+18-11-10 16:19:43-06 Main loop terminated.
+18-11-10 16:19:43-06 Server Shut Down.
+18-11-10 16:19:43-06 Server Shut Down.
