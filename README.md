@@ -1,80 +1,40 @@
-# Evennia MUD/MU\* Creation System ![evennia logo][logo]
-[![Build Status][travisimg]][travislink] [![Coverage Status][coverimg]][coverlink]
+# Welcome to Evennia!
 
-*Evennia* is a modern library for creating [online multiplayer text
-games][wikimudpage] (MUD, MUSH, MUX, MUCK, MOO etc) in pure Python. It
-allows game creators to design and flesh out their ideas with great
-freedom. Evennia is made available under the very friendly [BSD
-license][license].
+This is your game directory, set up to let you start with
+your new game right away. An overview of this directory is found here:
+https://github.com/evennia/evennia/wiki/Directory-Overview#the-game-directory
 
-http://www.evennia.com is the main hub tracking all things Evennia.
+You can delete this readme file when you've read it and you can
+re-arrange things in this game-directory to suit your own sense of
+organisation (the only exception is the directory structure of the
+`server/` directory, which Evennia expects). If you change the structure
+you must however also edit/add to your settings file to tell Evennia
+where to look for things.
 
+Your game's main configuration file is found in
+`server/conf/settings.py` (but you don't need to change it to get
+started). If you just created this directory (which means you'll already
+have a `virtualenv` running if you followed the default instructions),
+`cd` to this directory then initialize a new database using
 
-## Features and Philosophy
+    evennia migrate
 
-The Evennia library aims for you to have a fully functioning, if
-empty, online game up and running in minutes. Rather than imposing a
-particular style, genre or game mechanic we offer a framework on which
-you build the game of your dreams. The idea is to allow you to
-concentrate on designing the bits that make your game unique.
+To start the server, stand in this directory and run
 
-Coding in Evennia is done using normal Python modules imported into
-the server at runtime. All library code is heavily documented and
-Evennia comes with extensive manuals and tutorials. You use Python
-classes to represent your objects, scripts, players, in-game channels
-and so on. The database layer is abstracted away. This makes it
-possible to create the game using modern code practices using the full
-flexibility and power of Python.
+    evennia start
 
-![screenshot][screenshot]
+This will start the server, logging output to the console. Make
+sure to create a superuser when asked. By default you can now connect
+to your new game using a MUD client on `localhost`, port `4000`.  You can
+also log into the web client by pointing a browser to
+`http://localhost:4001`.
 
-Evennia offers extensive connectivity options, including traditional
-telnet connections. Evennia is also its own web server: A default
-website as well as a browser-based mud client (html5 websockets, with
-fallback to AJAX) runs by default. Due to our Django and Twisted
-foundations, web integration is easy since the same code powering the
-game is also used to run its web presence.
+# Getting started
 
-Whereas Evennia is intentionally empty of game content from the onset,
-we *do* offer some defaults you can build from. The code base comes
-with basic classes for objects, exits, rooms and characters. There are
-systems for handling puppeting, scripting, timers, dynamic games
-states etc. A default command set (completely replaceable with your
-own syntax and functionality) handles administration, building, chat
-channels, poses and so on. The default setup is enough to run a
-'Talker' or some other social-style game out of the box. We also have
-a contributions folder with optional plugins and examples of more
-game-specific systems.
+From here on you might want to look at one of the beginner tutorials:
+http://github.com/evennia/evennia/wiki/Tutorials.
 
-## Current Status
+Evennia's documentation is here:
+https://github.com/evennia/evennia/wiki.
 
-The codebase is currently in **Beta**. While development continues,
-Evennia is already stable enough to be suitable for prototyping and
-development of your own games.
-
-## Where to go from here
-
-If this piqued your interest, there is a [lengthier
-introduction][introduction] to read.
-
-To learn how to get your hands on the code base, the [Getting
-started][gettingstarted] page is the way to go. Otherwise you could
-browse the [Documentation][wiki] or why not come join the [Evennia
-Community forum][group] or join us in our [development chat][chat].
-Welcome!
-
-
-[homepage]: http://www.evennia.com
-[gettingstarted]: http://github.com/evennia/evennia/wiki/Getting-Started
-[wiki]: https://github.com/evennia/evennia/wiki
-[screenshot]: https://user-images.githubusercontent.com/294267/30773728-ea45afb6-a076-11e7-8820-49be2168a6b8.png
-[logo]: https://github.com/evennia/evennia/blob/master/evennia/web/website/static/website/images/evennia_logo.png
-[travisimg]: https://travis-ci.org/evennia/evennia.svg?branch=master
-[travislink]: https://travis-ci.org/evennia/evennia
-[coverimg]: https://coveralls.io/repos/github/evennia/evennia/badge.svg?branch=master
-[coverlink]: https://coveralls.io/github/evennia/evennia?branch=master
-[introduction]: https://github.com/evennia/evennia/wiki/Evennia-Introduction
-[license]: https://github.com/evennia/evennia/wiki/Licensing
-[group]: https://groups.google.com/forum/#!forum/evennia
-[chat]: http://webchat.freenode.net/?channels=evennia&uio=MT1mYWxzZSY5PXRydWUmMTE9MTk1JjEyPXRydWUbb
-[wikimudpage]: http://en.wikipedia.org/wiki/MUD
+Enjoy!
