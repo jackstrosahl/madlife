@@ -32,7 +32,6 @@ class Command(BaseCommand):
     pass
 
 
-
 class Attack(Command):
     """
     Usage: attack [character] [weapon]
@@ -43,9 +42,13 @@ class Attack(Command):
 
     def func(self):
         if not self.args:
-            self.caller.msg("attack [character] [weapon]")
+            self.caller.msg("attack [character]")
         else:
-            self.caller.msg("You slapped this ho")
+            target = self.caller.search(self.args)
+            if not target:
+                return
+            target.msg("You've been slapped")
+            self.caller.msg("You slapped")
 
 # -------------------------------------------------------------
 #

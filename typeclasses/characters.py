@@ -36,6 +36,9 @@ class Character(DefaultCharacter):
         self.cmdset.add("commands.custom_cmdsets.Combat", Permanent=True)
     pass
 
+    def get_key(self):
+        return self.
+
     def get_hit(self, damage):
         self.health -= damage
         self.caller.msg("You got slapped")
