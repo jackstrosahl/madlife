@@ -30,16 +30,4 @@ class Character(DefaultCharacter):
     at_post_puppet - Echoes "AccountName has entered the game" to the room.
 
     """
-    health = 10
-
-    def at_object_creation(self):
-        self.cmdset.add("commands.custom_cmdsets.Combat", Permanent=True)
-    pass
-
-    def get_hit(self, damage):
-        self.health -= damage
-        if self.health < 0:
-            self.move_to(self, None, True, None, None, True, False)
-            self.caller.msg("You died, dumbass")
-            self.health = 10
     pass
