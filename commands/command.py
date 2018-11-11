@@ -71,7 +71,8 @@ class DrinkBeer(Command):
             pass
         if drinkable:
             self.caller.msg("You drank the beer! Don't worry, here at Madison beer is infinite.")
-            pass
+        else:
+            self.caller.msg("You have no beer to drink!")
         pass
     pass
 
