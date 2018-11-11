@@ -50,3 +50,105 @@
 18-11-10 16:19:43-06  |Portal| Main loop terminated.
 18-11-10 16:19:43-06  |Portal| Server Shut Down.
 18-11-10 16:19:43-06  |Portal| Server Shut Down.
+18-11-10 16:41:21-06  |Portal| Loading c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\server\portal\portal.py...
+18-11-10 16:41:21-06  |Portal| Loaded.
+18-11-10 16:41:21-06  |Portal| twistd 18.9.0 (c:\users\pjmat\desktop\madhacks\muddev\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 16:41:21-06  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 16:41:21-06  |Portal| AMP starting on 4006
+18-11-10 16:41:21-06  |Portal| Telnet starting on 4000
+18-11-10 16:41:21-06  |Portal| Websocket (WebSocketFactory) starting on 4002
+18-11-10 16:41:21-06  |Portal| Webserver-proxy starting on 4001
+18-11-10 16:42:01-06  |Portal| Starting RFC 6455 conversation
+18-11-10 16:43:00-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49884)
+18-11-10 16:43:00-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49885)
+18-11-10 17:19:46-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49987)
+18-11-10 17:19:46-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49986)
+18-11-10 17:19:47-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49994)
+18-11-10 17:32:33-06  |Portal| In connectionLost of webclient
+18-11-10 17:32:33-06  |Portal| In connectionLost of webclient
+18-11-10 17:32:53-06  |Portal| (TCP Port 4001 Closed)
+18-11-10 17:32:53-06  |Portal| (TCP Port 4006 Closed)
+18-11-10 17:32:53-06  |Portal| (TCP Port 4002 Closed)
+18-11-10 17:32:53-06  |Portal| (TCP Port 4000 Closed)
+18-11-10 17:32:53-06  |Portal| Main loop terminated.
+18-11-10 17:32:53-06  |Portal| Server Shut Down.
+18-11-10 17:32:53-06  |Portal| Server Shut Down.
+18-11-10 17:38:26-06  |Portal| Loading c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\server\portal\portal.py...
+18-11-10 17:38:27-06  |Portal| Loaded.
+18-11-10 17:38:27-06  |Portal| twistd 18.9.0 (c:\users\pjmat\desktop\madhacks\muddev\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 17:38:27-06  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 17:38:27-06  |Portal| AMP starting on 4006
+18-11-10 17:38:27-06  |Portal| Telnet starting on 4000
+18-11-10 17:38:27-06  |Portal| Websocket (WebSocketFactory) starting on 4002
+18-11-10 17:38:27-06  |Portal| Webserver-proxy starting on 4001
+18-11-10 17:38:38-06  |Portal| Starting RFC 6455 conversation
+18-11-10 17:39:37-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50092)
+18-11-10 17:39:37-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50109)
+18-11-10 17:39:38-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50112)
+18-11-10 17:39:38-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50111)
+18-11-10 17:39:38-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50113)
+18-11-10 17:39:38-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50094)
+18-11-10 17:43:02-06  |Portal| (TCP Port 4001 Closed)
+18-11-10 17:43:02-06  |Portal| (TCP Port 4006 Closed)
+18-11-10 17:43:02-06  |Portal| (TCP Port 4002 Closed)
+18-11-10 17:43:02-06  |Portal| (TCP Port 4000 Closed)
+18-11-10 17:43:02-06  |Portal| In connectionLost of webclient
+18-11-10 17:43:02-06  |Portal| Main loop terminated.
+18-11-10 17:43:02-06  |Portal| Server Shut Down.
+18-11-10 17:43:02-06  |Portal| Server Shut Down.
+18-11-10 17:44:28-06  |Portal| Loading c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\server\portal\portal.py...
+18-11-10 17:44:28-06  |Portal| Loaded.
+18-11-10 17:44:28-06  |Portal| twistd 18.9.0 (c:\users\pjmat\desktop\madhacks\muddev\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 17:44:28-06  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 17:44:28-06  |Portal| AMP starting on 4006
+18-11-10 17:44:28-06  |Portal| Telnet starting on 4000
+18-11-10 17:44:28-06  |Portal| Websocket (WebSocketFactory) starting on 4002
+18-11-10 17:44:28-06  |Portal| Webserver-proxy starting on 4001
+18-11-10 17:44:39-06  |Portal| Starting RFC 6455 conversation
+18-11-10 17:45:38-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50139)
+18-11-10 17:45:39-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50138)
+18-11-10 17:45:39-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50141)
+18-11-10 17:49:56-06  |Portal| In connectionLost of webclient
+18-11-10 17:49:56-06  |Portal| In connectionLost of webclient
+18-11-10 17:50:04-06  |Portal| (TCP Port 4001 Closed)
+18-11-10 17:50:04-06  |Portal| (TCP Port 4006 Closed)
+18-11-10 17:50:04-06  |Portal| (TCP Port 4002 Closed)
+18-11-10 17:50:04-06  |Portal| (TCP Port 4000 Closed)
+18-11-10 17:50:04-06  |Portal| Main loop terminated.
+18-11-10 17:50:04-06  |Portal| Server Shut Down.
+18-11-10 17:50:04-06  |Portal| Server Shut Down.
+18-11-10 17:50:39-06  |Portal| Loading c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\server\portal\portal.py...
+18-11-10 17:50:40-06  |Portal| Loaded.
+18-11-10 17:50:40-06  |Portal| twistd 18.9.0 (c:\users\pjmat\desktop\madhacks\muddev\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 17:50:40-06  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 17:50:40-06  |Portal| AMP starting on 4006
+18-11-10 17:50:40-06  |Portal| Telnet starting on 4000
+18-11-10 17:50:40-06  |Portal| Websocket (WebSocketFactory) starting on 4002
+18-11-10 17:50:40-06  |Portal| Webserver-proxy starting on 4001
+18-11-10 17:50:47-06  |Portal| Starting RFC 6455 conversation
+18-11-10 17:51:47-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50169)
+18-11-10 17:51:47-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50166)
+18-11-10 17:51:47-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50167)
+18-11-10 17:51:47-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50186)
+18-11-10 17:51:47-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50187)
+18-11-10 17:51:47-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50188)
+18-11-10 18:17:18-06  |Portal| In connectionLost of webclient
+18-11-10 18:17:18-06  |Portal| In connectionLost of webclient
+18-11-10 18:17:57-06  |Portal| Starting RFC 6455 conversation
+18-11-10 18:18:56-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50371)
+18-11-10 18:18:56-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50387)
+18-11-10 18:18:56-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50388)
+18-11-10 18:18:56-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50389)
+18-11-10 18:18:56-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50390)
+18-11-10 18:18:56-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50370)
+18-11-10 19:03:43-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50519)
+18-11-10 19:03:43-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50518)
+18-11-10 19:03:43-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50522)
+18-11-10 19:27:10-06  |Portal| (TCP Port 4001 Closed)
+18-11-10 19:27:10-06  |Portal| (TCP Port 4006 Closed)
+18-11-10 19:27:10-06  |Portal| (TCP Port 4002 Closed)
+18-11-10 19:27:10-06  |Portal| (TCP Port 4000 Closed)
+18-11-10 19:27:10-06  |Portal| In connectionLost of webclient
+18-11-10 19:27:10-06  |Portal| Main loop terminated.
+18-11-10 19:27:10-06  |Portal| Server Shut Down.
+18-11-10 19:27:10-06  |Portal| Server Shut Down.

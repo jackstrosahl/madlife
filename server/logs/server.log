@@ -131,3 +131,67 @@ thub\madhacks-2018\evennia\evennia\server\server.py...
 18-11-10 16:19:43-06 Main loop terminated.
 18-11-10 16:19:43-06 Server Shut Down.
 18-11-10 16:19:43-06 Server Shut Down.
+18-11-10 16:41:22-06 Loading c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\server\server.py...
+18-11-10 16:41:23-06 Loaded.
+18-11-10 16:41:23-06 twistd 18.9.0 (c:\users\pjmat\desktop\madhacks\muddev\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 16:41:23-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 16:41:23-06 Webserver starting on 4005
+18-11-10 16:41:23-06 Evennia Server successfully started.
+18-11-10 16:42:01-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 17:32:33-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+18-11-10 17:32:53-06 [..] Server disconnected from the portal.
+18-11-10 17:32:53-06 Main loop terminated.
+18-11-10 17:32:53-06 Server Shut Down.
+18-11-10 17:32:53-06 Server Shut Down.
+18-11-10 17:38:28-06 Loading c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\server\server.py...
+18-11-10 17:38:29-06 Loaded.
+18-11-10 17:38:29-06 twistd 18.9.0 (c:\users\pjmat\desktop\madhacks\muddev\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 17:38:29-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 17:38:29-06 Webserver starting on 4005
+18-11-10 17:38:29-06 Evennia Server successfully started.
+18-11-10 17:39:04-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 17:43:02-06 [..] Server disconnected from the portal.
+18-11-10 17:43:02-06 Main loop terminated.
+18-11-10 17:43:02-06 Server Shut Down.
+18-11-10 17:43:02-06 Server Shut Down.
+18-11-10 17:44:29-06 Loading c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\server\server.py...
+18-11-10 17:44:30-06 Loaded.
+18-11-10 17:44:30-06 twistd 18.9.0 (c:\users\pjmat\desktop\madhacks\muddev\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 17:44:30-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 17:44:30-06 Webserver starting on 4005
+18-11-10 17:44:30-06 Evennia Server successfully started.
+18-11-10 17:44:39-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 17:46:48-06 [EE] Script bodyfunction(#12) of type 'BodyFunctions': at_repeat() error 'unsupported operand type(s) for +: 'float' and 'str''.
+18-11-10 17:49:48-06 [EE] Script bodyfunction(#12) of type 'BodyFunctions': at_repeat() error 'unsupported operand type(s) for +: 'float' and 'str''.
+18-11-10 17:49:56-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+18-11-10 17:50:04-06 [..] Server disconnected from the portal.
+18-11-10 17:50:04-06 Main loop terminated.
+18-11-10 17:50:04-06 Server Shut Down.
+18-11-10 17:50:04-06 Server Shut Down.
+18-11-10 17:50:41-06 Loading c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\server\server.py...
+18-11-10 17:50:42-06 Loaded.
+18-11-10 17:50:42-06 twistd 18.9.0 (c:\users\pjmat\desktop\madhacks\muddev\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 17:50:42-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 17:50:42-06 Webserver starting on 4005
+18-11-10 17:50:42-06 Evennia Server successfully started.
+18-11-10 17:50:59-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 18:17:18-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+18-11-10 18:18:14-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 18:55:25-06 [::] Traceback (most recent call last):
+18-11-10 18:55:25-06 [::]   File "c:\users\pjmat\desktop\madhacks\muddev\evennia\evennia\utils\logger.py", line 365, in _open_log_file
+18-11-10 18:55:25-06 [::]     filehandle = EvenniaLogFile.fromFullPath(filename, rotateLength=_LOG_ROTATE_SIZE)
+18-11-10 18:55:25-06 [::]   File "c:\users\pjmat\desktop\madhacks\muddev\evenv\Lib\site-packages\twisted\python\logfile.py", line 54, in fromFullPath
+18-11-10 18:55:25-06 [::]     os.path.dirname(logPath), *args, **kwargs)
+18-11-10 18:55:25-06 [::]   File "c:\users\pjmat\desktop\madhacks\muddev\evenv\Lib\site-packages\twisted\python\logfile.py", line 170, in __init__
+18-11-10 18:55:25-06 [::]     BaseLogFile.__init__(self, name, directory, defaultMode)
+18-11-10 18:55:25-06 [::]   File "c:\users\pjmat\desktop\madhacks\muddev\evenv\Lib\site-packages\twisted\python\logfile.py", line 45, in __init__
+18-11-10 18:55:25-06 [::]     self._openFile()
+18-11-10 18:55:25-06 [::]   File "c:\users\pjmat\desktop\madhacks\muddev\evenv\Lib\site-packages\twisted\python\logfile.py", line 175, in _openFile
+18-11-10 18:55:25-06 [::]     BaseLogFile._openFile(self)
+18-11-10 18:55:25-06 [::]   File "c:\users\pjmat\desktop\madhacks\muddev\evenv\Lib\site-packages\twisted\python\logfile.py", line 85, in _openFile
+18-11-10 18:55:25-06 [::]     self._file = open(self.path, "wb+", 0)
+18-11-10 18:55:25-06 [::] IOError: [Errno 22] invalid mode ('wb+') or filename: u'C:\\Users\\pjmat\\Desktop\\madhacks\\muddev\\madlife\\server\\logs\\channel_<TOWN>.log'
+18-11-10 19:27:10-06 [..] Server disconnected from the portal.
+18-11-10 19:27:10-06 Main loop terminated.
+18-11-10 19:27:10-06 Server Shut Down.
+18-11-10 19:27:10-06 Server Shut Down.
