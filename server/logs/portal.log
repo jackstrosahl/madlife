@@ -50,3 +50,22 @@
 18-11-10 16:19:43-06  |Portal| Main loop terminated.
 18-11-10 16:19:43-06  |Portal| Server Shut Down.
 18-11-10 16:19:43-06  |Portal| Server Shut Down.
+18-11-10 18:09:18-06  |Portal| Loading c:\users\alex\madhacks\evennia\evennia\server\portal\portal.py...
+18-11-10 18:09:19-06  |Portal| Loaded.
+18-11-10 18:09:19-06  |Portal| twistd 18.9.0 (c:\users\alex\madhacks\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 18:09:19-06  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 18:09:19-06  |Portal| AMP starting on 4006
+18-11-10 18:09:19-06  |Portal| Telnet starting on 4000
+18-11-10 18:09:19-06  |Portal| Websocket (WebSocketFactory) starting on 4002
+18-11-10 18:09:19-06  |Portal| Webserver-proxy starting on 4001
+18-11-10 18:09:36-06  |Portal| Starting RFC 6455 conversation
+18-11-10 18:10:36-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53435)
+18-11-10 18:10:36-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53442)
+18-11-10 18:10:36-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53437)
+18-11-10 18:10:36-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53459)
+18-11-10 18:10:36-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53460)
+18-11-10 18:10:36-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53461)
+18-11-10 18:11:04-06  |Portal| In connectionLost of webclient
+18-11-10 18:11:04-06  |Portal| In connectionLost of webclient
+18-11-10 18:12:10-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53467)
+18-11-10 18:12:10-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53469)

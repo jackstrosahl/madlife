@@ -131,3 +131,11 @@ thub\madhacks-2018\evennia\evennia\server\server.py...
 18-11-10 16:19:43-06 Main loop terminated.
 18-11-10 16:19:43-06 Server Shut Down.
 18-11-10 16:19:43-06 Server Shut Down.
+18-11-10 18:09:20-06 Loading c:\users\alex\madhacks\evennia\evennia\server\server.py...
+18-11-10 18:09:21-06 Loaded.
+18-11-10 18:09:21-06 twistd 18.9.0 (c:\users\alex\madhacks\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 18:09:21-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 18:09:21-06 Webserver starting on 4005
+18-11-10 18:09:21-06 Evennia Server successfully started.
+18-11-10 18:10:04-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 18:11:04-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
