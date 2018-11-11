@@ -48,7 +48,7 @@ class Attack(Command):
             target = self.caller.search(self.args)
             if not target:
                 return
-            target.msg("You've been slapped by " + self)
+            target.msg("You've been slapped by " + self.caller)
             self.msg("You slapped " + target)
             pass
         pass
