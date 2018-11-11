@@ -48,7 +48,7 @@ class Attack(Command):
             if not target:
                 return
             target.msg("You've been slapped")
-            target.get_hit(target, 10)
+            target.get_hit(10)
             self.caller.msg("You slapped")
 
 # -------------------------------------------------------------
