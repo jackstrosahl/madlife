@@ -38,6 +38,7 @@ class Character(DefaultCharacter):
 
     def get_hit(self, damage):
         self.health -= damage
+        self.caller.msg("You got slapped")
         if self.health < 0:
             self.move_to(self, None, True, None, None, True, False)
             self.caller.msg("You died, dumbass")
