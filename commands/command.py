@@ -6,6 +6,8 @@ Commands describe the input the account can do to the game.
 """
 
 from evennia import Command as BaseCommand
+from typeclasses.objects import Weapon
+from typeclasses.characters import Character
 # from evennia import default_cmds
 
 
@@ -32,20 +34,33 @@ class Command(BaseCommand):
     pass
 
 
-
 class Attack(Command):
     """
     Usage: attack [character] [weapon]
     If you are not carrying a weapon, type fists as your weapon
     """
+    print(Command)
     key = "attack"
     aliases = ["kill", "slaughter", "maul", "shoot"]
 
     def func(self):
+        items = self.caller.contents
         if not self.args:
             self.caller.msg("attack [character] [weapon]")
-        else:
-            self.caller.msg("You slapped this ho")
+            return
+        target = None;
+        for obj in self.caller.location.contents:
+            if isinstance(obj, Character) & obj.key == self.args:
+                target = obj
+
+        if not target:
+            return
+        damage = 2
+        for item in items:
+            if isinstance(item, Weapon):
+                damage = 10
+
+        target.get_hit(target, damage)
 
 # -------------------------------------------------------------
 #
