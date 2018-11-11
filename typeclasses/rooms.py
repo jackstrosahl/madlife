@@ -31,7 +31,7 @@ ECHOES = ["You make eye contact with a passerby. Awkward.",
 class Bus(DefaultRoom):
     "Room is ticked at regular intervals"
     def at_object_creation(self):
-        TICKER_HANDLER.add(20, self.at_weather_update)
+        TICKER_HANDLER.add(40, self.at_weather_update)
 
     def at_weather_update(self, *args, **kwargs):
         echo = random.choice(ECHOES)
