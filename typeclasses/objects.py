@@ -164,7 +164,8 @@ class Object(DefaultObject):
 
 
 class Beer(Object):
-    key = "beer"
-    aliases = ["alcohol", "drunk juice"]
+    def at_object_creation(self):
+        self.db.desc = "It's an alcoholic beverage. Try [drink]ing it!"
+        pass
     pass
 
