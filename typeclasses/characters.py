@@ -38,7 +38,7 @@ class Character(DefaultCharacter):
     pass
 
     def at_after_move(self):
-        super()
+        super(self)
         has_beer = False
         for obj in self.contents:
             if isinstance(obj, Beer):
