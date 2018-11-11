@@ -6,6 +6,7 @@ Commands describe the input the account can do to the game.
 """
 
 from evennia import Command as BaseCommand
+from typeclasses.objects import Beer
 # from evennia import default_cmds
 
 
@@ -34,7 +35,7 @@ class Command(BaseCommand):
 
 class Attack(Command):
     """
-    Usage: attack [character] [weapon]
+    Usage: slap <character>
     If you are not carrying a weapon, type fists as your weapon
     """
     key = "slap"
@@ -42,13 +43,37 @@ class Attack(Command):
 
     def func(self):
         if not self.args:
-            self.caller.msg("poke <character>")
+            self.caller.msg("slap <character>")
         else:
             target = self.caller.search(self.args)
             if not target:
                 return
             target.msg("You've been slapped by " + self)
             self.msg("You slapped " + target)
+            pass
+        pass
+    pass
+pass
+
+class DrinkBeer(Command):
+    """
+    Usage: Drink
+    """
+    key = "drink"
+    aliases = ["chug", "guzzle"]
+
+    def func(self):
+        drinkable = False
+        for obj in self.caller.contents:
+            if isinstance(obj, Beer):
+                drinkable = True
+                pass
+            pass
+        if drinkable:
+            self.caller.msg("You drank the beer! Don't worry, here at Madison beer is infinite.")
+            pass
+        pass
+    pass
 
 # -------------------------------------------------------------
 #

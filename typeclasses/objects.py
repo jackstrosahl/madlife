@@ -161,3 +161,8 @@ class Object(DefaultObject):
 
      """
     pass
+
+
+class Beer(Object):
+    key = "beer"
+    aliases = ["alcohol", "drunk juice"]
