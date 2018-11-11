@@ -34,18 +34,7 @@ class Character(DefaultCharacter):
     """
 
     def at_object_creation(self):
-        self.cmdset.add("commands.custom_cmdsets.CharacterCmdSet", True)
-    pass
-
-    def at_after_move(self):
         super(self)
-        has_beer = False
-        for obj in self.contents:
-            if isinstance(obj, Beer):
-                has_beer = True
-                pass
-
-        if not has_beer:
-            self.contents.append("typeclasses.objects.Beer", "beer")
-        pass
+        self.cmdset.add("commands.custom_cmdsets.CharacterCmdSet", True)
+        self.caller.contents.append("typeclasses.objects.Beer", "beer")
     pass
