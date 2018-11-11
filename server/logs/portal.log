@@ -50,3 +50,69 @@
 18-11-10 16:19:43-06  |Portal| Main loop terminated.
 18-11-10 16:19:43-06  |Portal| Server Shut Down.
 18-11-10 16:19:43-06  |Portal| Server Shut Down.
+18-11-10 16:29:52-06  |Portal| Loading c:\users\stros\documents\github\madhacks-2018\evennia\evennia\server\portal\portal.py...
+18-11-10 16:29:52-06  |Portal| Loaded.
+18-11-10 16:29:52-06  |Portal| twistd 18.9.0 (c:\users\stros\documents\github\madhacks-2018\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 16:29:52-06  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 16:29:52-06  |Portal| AMP starting on 4006
+18-11-10 16:29:52-06  |Portal| Telnet starting on 4000
+18-11-10 16:29:52-06  |Portal| Websocket (WebSocketFactory) starting on 4002
+18-11-10 16:29:52-06  |Portal| Webserver-proxy starting on 4001
+18-11-10 16:30:09-06  |Portal| Starting RFC 6455 conversation
+18-11-10 16:30:12-06  |Portal| In connectionLost of webclient
+18-11-10 16:30:12-06  |Portal| In connectionLost of webclient
+18-11-10 16:30:13-06  |Portal| Starting RFC 6455 conversation
+18-11-10 16:31:13-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52251)
+18-11-10 16:31:13-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52256)
+18-11-10 16:31:13-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52253)
+18-11-10 16:31:13-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52252)
+18-11-10 16:31:13-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52254)
+18-11-10 16:31:13-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52255)
+18-11-10 17:13:07-06  |Portal| In connectionLost of webclient
+18-11-10 17:13:07-06  |Portal| In connectionLost of webclient
+18-11-10 17:13:07-06  |Portal| Starting RFC 6455 conversation
+18-11-10 17:14:07-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52503)
+18-11-10 17:14:07-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52501)
+18-11-10 17:14:07-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52500)
+18-11-10 17:14:07-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52502)
+18-11-10 17:14:07-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52505)
+18-11-10 17:14:07-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52504)
+18-11-10 17:29:35-06  |Portal| In connectionLost of webclient
+18-11-10 17:29:35-06  |Portal| In connectionLost of webclient
+18-11-10 17:29:35-06  |Portal| Starting RFC 6455 conversation
+18-11-10 17:30:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52618)
+18-11-10 17:30:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52613)
+18-11-10 17:30:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52617)
+18-11-10 17:30:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52614)
+18-11-10 17:30:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52615)
+18-11-10 17:30:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=52616)
+18-11-10 18:08:08-06  |Portal| In connectionLost of webclient
+18-11-10 18:08:08-06  |Portal| In connectionLost of webclient
+18-11-10 18:08:08-06  |Portal| Starting RFC 6455 conversation
+18-11-10 18:08:18-06  |Portal| In connectionLost of webclient
+18-11-10 18:08:18-06  |Portal| In connectionLost of webclient
+18-11-10 18:08:18-06  |Portal| Starting RFC 6455 conversation
+18-11-10 18:09:18-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53185)
+18-11-10 18:09:18-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53186)
+18-11-10 18:09:18-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53187)
+18-11-10 18:09:18-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53184)
+18-11-10 18:09:18-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53188)
+18-11-10 18:09:18-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53189)
+18-11-10 18:32:35-06  |Portal| In connectionLost of webclient
+18-11-10 18:32:35-06  |Portal| In connectionLost of webclient
+18-11-10 18:32:35-06  |Portal| Starting RFC 6455 conversation
+18-11-10 18:33:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53416)
+18-11-10 18:33:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53411)
+18-11-10 18:33:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53412)
+18-11-10 18:33:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53414)
+18-11-10 18:33:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53413)
+18-11-10 18:33:35-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53415)
+18-11-10 18:38:04-06  |Portal| In connectionLost of webclient
+18-11-10 18:38:04-06  |Portal| In connectionLost of webclient
+18-11-10 18:38:04-06  |Portal| Starting RFC 6455 conversation
+18-11-10 18:39:04-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53454)
+18-11-10 18:39:04-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53448)
+18-11-10 18:39:04-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53455)
+18-11-10 18:39:04-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53453)
+18-11-10 18:39:04-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53457)
+18-11-10 18:39:04-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=53456)

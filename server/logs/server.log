@@ -131,3 +131,127 @@ thub\madhacks-2018\evennia\evennia\server\server.py...
 18-11-10 16:19:43-06 Main loop terminated.
 18-11-10 16:19:43-06 Server Shut Down.
 18-11-10 16:19:43-06 Server Shut Down.
+18-11-10 16:29:53-06 Loading c:\users\stros\documents\github\madhacks-2018\evennia\evennia\server\server.py...
+18-11-10 16:29:54-06 Loaded.
+18-11-10 16:29:54-06 twistd 18.9.0 (c:\users\stros\documents\github\madhacks-2018\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 16:29:54-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 16:29:54-06 Webserver starting on 4005
+18-11-10 16:29:54-06 Evennia Server successfully started.
+18-11-10 16:30:09-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 16:30:12-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 16:30:20-06 [..] Logged in: jack(account 2) 127.0.0.1 (1 session(s) total)
+18-11-10 17:13:07-06 [..] Logged out: jack(account 2) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 17:13:49-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 17:29:30-06 [..] Server disconnected from the portal.
+18-11-10 17:29:30-06 Main loop terminated.
+18-11-10 17:29:30-06 Server Shut Down.
+18-11-10 17:29:30-06 Server Shut Down.
+18-11-10 17:29:30-06 Loading c:\users\stros\documents\github\madhacks-2018\evennia\evennia\server\server.py...
+18-11-10 17:29:31-06 Loaded.
+18-11-10 17:29:31-06 twistd 18.9.0 (c:\users\stros\documents\github\madhacks-2018\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 17:29:31-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 17:29:31-06 Webserver starting on 4005
+18-11-10 17:29:31-06 Server successfully reloaded.
+18-11-10 17:29:35-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 17:30:08-06 [..] Logged in: jack(account 2) 127.0.0.1 (1 session(s) total)
+18-11-10 18:08:08-06 [..] Logged out: jack(account 2) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 18:08:14-06 [..] Logged in: jack(account 2) 127.0.0.1 (1 session(s) total)
+18-11-10 18:08:18-06 [..] Logged out: jack(account 2) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 18:08:32-06 [..] Password succesfully changed for test(account None).
+18-11-10 18:08:36-06 [..] Logged in: test(account 3) 127.0.0.1 (1 session(s) total)
+18-11-10 18:32:35-06 [..] Logged out: test(account 3) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 18:32:44-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 18:38:04-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 18:38:13-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 18:38:43-06 [..] Server disconnected from the portal.
+18-11-10 18:38:43-06 Main loop terminated.
+18-11-10 18:38:43-06 Server Shut Down.
+18-11-10 18:38:43-06 Server Shut Down.
+18-11-10 18:38:43-06 Loading c:\users\stros\documents\github\madhacks-2018\evennia\evennia\server\server.py...
+18-11-10 18:38:44-06 Loaded.
+18-11-10 18:38:44-06 twistd 18.9.0 (c:\users\stros\documents\github\madhacks-2018\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 18:38:44-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 18:38:44-06 Webserver starting on 4005
+18-11-10 18:38:44-06 Server successfully reloaded.
+18-11-10 18:38:52-06 Unhandled error in Deferred:
+18-11-10 18:38:52-06 Unhandled Error
+	Traceback (most recent call last):
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\base.py", line 1276, in mainLoop
+	    self.runUntilCurrent()
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\base.py", line 902, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 460, in callback
+	    self._startRunCallbacks(result)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 568, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\task.py", line 865, in <lambda>
+	    d.addCallback(lambda ignored: callable(*args, **kw))
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\cmdhandler.py", line 195, in _progressive_cmd_run
+	    value = generator.send(response)
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\default\building.py", line 751, in func
+	    results.append(delobj(obj))
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\default\building.py", line 685, in delobj
+	    if obj.dbid == int(settings.DEFAULT_HOME.lstrip("#")):
+	exceptions.ValueError: invalid literal for int() with base 10: 'Dorm'
+	
+18-11-10 18:39:04-06 Unhandled error in Deferred:
+18-11-10 18:39:04-06 Unhandled Error
+	Traceback (most recent call last):
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\base.py", line 1276, in mainLoop
+	    self.runUntilCurrent()
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\base.py", line 902, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 460, in callback
+	    self._startRunCallbacks(result)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 568, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\task.py", line 865, in <lambda>
+	    d.addCallback(lambda ignored: callable(*args, **kw))
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\cmdhandler.py", line 195, in _progressive_cmd_run
+	    value = generator.send(response)
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\default\building.py", line 751, in func
+	    results.append(delobj(obj))
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\default\building.py", line 685, in delobj
+	    if obj.dbid == int(settings.DEFAULT_HOME.lstrip("#")):
+	exceptions.ValueError: invalid literal for int() with base 10: 'Dorm'
+	
+18-11-10 18:39:09-06 [..] Server disconnected from the portal.
+18-11-10 18:39:09-06 Main loop terminated.
+18-11-10 18:39:09-06 Server Shut Down.
+18-11-10 18:39:09-06 Server Shut Down.
+18-11-10 18:39:10-06 Loading c:\users\stros\documents\github\madhacks-2018\evennia\evennia\server\server.py...
+18-11-10 18:39:10-06 Loaded.
+18-11-10 18:39:10-06 twistd 18.9.0 (c:\users\stros\documents\github\madhacks-2018\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 18:39:10-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 18:39:10-06 Webserver starting on 4005
+18-11-10 18:39:10-06 Evennia Server successfully restarted in 'reset' mode.
+18-11-10 18:40:13-06 Unhandled error in Deferred:
+18-11-10 18:40:13-06 Unhandled Error
+	Traceback (most recent call last):
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\base.py", line 1276, in mainLoop
+	    self.runUntilCurrent()
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\base.py", line 902, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 460, in callback
+	    self._startRunCallbacks(result)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 568, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "c:\users\stros\documents\github\madhacks-2018\evenv\Lib\site-packages\twisted\internet\task.py", line 865, in <lambda>
+	    d.addCallback(lambda ignored: callable(*args, **kw))
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\cmdhandler.py", line 195, in _progressive_cmd_run
+	    value = generator.send(response)
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\default\building.py", line 751, in func
+	    results.append(delobj(obj))
+	  File "c:\users\stros\documents\github\madhacks-2018\evennia\evennia\commands\default\building.py", line 685, in delobj
+	    if obj.dbid == int(settings.DEFAULT_HOME.lstrip("#")):
+	exceptions.ValueError: invalid literal for int() with base 10: 'Dorm'
+	
