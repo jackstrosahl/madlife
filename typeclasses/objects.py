@@ -161,3 +161,8 @@ class Object(DefaultObject):
 
      """
     pass
+
+
+class Gun(Object):
+    key = "Gun"
+    aliases = ["Weapon"]
