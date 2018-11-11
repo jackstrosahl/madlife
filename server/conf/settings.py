@@ -33,7 +33,7 @@ from evennia.settings_default import *
 
 # This is the name of your game. Make it catchy!
 SERVERNAME = "madlife"
-DEFAULT_HOME = "Dorm"
+DEFAULT_HOME = "#2"
 
 ######################################################################
 # Settings given in secret_settings.py override those in this file.

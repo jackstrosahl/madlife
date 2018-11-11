@@ -52,6 +52,7 @@ class AccountCmdSet(default_cmds.AccountCmdSet):
         #
         # any commands you add below will overload the default ones.
         #
+        self.add(Attack())
 
 
 class UnloggedinCmdSet(default_cmds.UnloggedinCmdSet):
