@@ -48,10 +48,13 @@ class Attack(Command):
         if not self.args:
             self.caller.msg("attack [character] [weapon]")
             return
-        target = self.caller.search(self.args)
+        target = None;
+        for obj in self.caller.location.contents:
+            if isinstance(obj, Character) & obj.key == self.args:
+                target = obj
+
         if not target:
             return
-        self.caller.msg("You slapped this ho")
         damage = 2
         for item in items:
             if isinstance(item, Weapon):
