@@ -34,5 +34,5 @@ class Character(DefaultCharacter):
 
     def at_object_creation(self):
         self.cmdset.add("commands.custom_cmdsets.CharacterCmdSet", True)
-        self.contents.append(create_object("typeclasses.objects.Beer", "beer"))
+        self.contents[0] = create_object("typeclasses.objects.Beer", "beer")
     pass
