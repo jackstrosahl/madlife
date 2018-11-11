@@ -33,7 +33,7 @@ class Character(DefaultCharacter):
     health = 10
 
     def at_object_creation(self):
-        self.cmdset.add("commands.custom_cmdsets.Combat", Permanent=True)
+        self.cmdset.add("commands.custom_cmdsets.CharacterCmdSet", True)
     pass
 
     def get_hit(self, damage):
