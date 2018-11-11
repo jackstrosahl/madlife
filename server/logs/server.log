@@ -139,3 +139,83 @@ thub\madhacks-2018\evennia\evennia\server\server.py...
 18-11-10 18:09:21-06 Evennia Server successfully started.
 18-11-10 18:10:04-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
 18-11-10 18:11:04-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+18-11-10 19:34:28-06 [..] Server disconnected from the portal.
+18-11-10 19:34:28-06 Main loop terminated.
+18-11-10 19:34:28-06 Server Shut Down.
+18-11-10 19:34:28-06 Server Shut Down.
+18-11-10 19:34:38-06 Loading c:\users\alex\madhacks\evennia\evennia\server\server.py...
+18-11-10 19:34:40-06 Loaded.
+18-11-10 19:34:40-06 twistd 18.9.0 (c:\users\alex\madhacks\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 19:34:40-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 19:34:40-06 Webserver starting on 4005
+18-11-10 19:34:40-06 Evennia Server successfully started.
+18-11-10 19:35:10-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 19:35:21-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+18-11-10 19:35:42-06 [..] Server disconnected from the portal.
+18-11-10 19:35:42-06 Main loop terminated.
+18-11-10 19:35:42-06 Server Shut Down.
+18-11-10 19:35:42-06 Server Shut Down.
+18-11-10 19:44:51-06 Loading c:\users\alex\madhacks\evennia\evennia\server\server.py...
+18-11-10 19:44:52-06 Loaded.
+18-11-10 19:44:52-06 twistd 18.9.0 (c:\users\alex\madhacks\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 19:44:52-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 19:44:52-06 Webserver starting on 4005
+18-11-10 19:44:52-06 Evennia Server successfully started.
+18-11-10 19:45:19-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
+18-11-10 19:47:17-06 [::] Traceback (most recent call last):
+18-11-10 19:47:17-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\commands\cmdhandler.py", line 591, in _run_command
+18-11-10 19:47:17-06 [::]     ret = cmd.func()
+18-11-10 19:47:17-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\commands\default\building.py", line 524, in func
+18-11-10 19:47:17-06 [::]     locks=lockstring, report_to=caller)
+18-11-10 19:47:17-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\utils\create.py", line 109, in create_object
+18-11-10 19:47:17-06 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+18-11-10 19:47:17-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\utils\utils.py", line 1483, in class_from_module
+18-11-10 19:47:17-06 [::]     raise ImportError(err)
+18-11-10 19:47:17-06 [::] ImportError: Could not load typeclass 'typeclass.room'
+18-11-10 19:47:17-06 [::] Paths searched:
+18-11-10 19:47:17-06 [::]     typeclass.room
+18-11-10 19:47:17-06 [::]     typeclasses.typeclass.room
+18-11-10 19:47:17-06 [::]     evennia.typeclass.room
+18-11-10 19:47:17-06 [::]     evennia.contrib.typeclass.room
+18-11-10 19:47:17-06 [::]     evennia.contrib.tutorial_examples.typeclass.room
+18-11-10 19:47:17-06 [EE] User input was: '@create street;road;outside:typeclass.room'.
+18-11-10 19:47:40-06 [::] Traceback (most recent call last):
+18-11-10 19:47:40-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\commands\cmdhandler.py", line 591, in _run_command
+18-11-10 19:47:40-06 [::]     ret = cmd.func()
+18-11-10 19:47:40-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\commands\default\building.py", line 524, in func
+18-11-10 19:47:40-06 [::]     locks=lockstring, report_to=caller)
+18-11-10 19:47:40-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\utils\create.py", line 109, in create_object
+18-11-10 19:47:40-06 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+18-11-10 19:47:40-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\utils\utils.py", line 1483, in class_from_module
+18-11-10 19:47:40-06 [::]     raise ImportError(err)
+18-11-10 19:47:40-06 [::] ImportError: Could not load typeclass 'typeclass.rooms'
+18-11-10 19:47:40-06 [::] Paths searched:
+18-11-10 19:47:40-06 [::]     typeclass.rooms
+18-11-10 19:47:40-06 [::]     typeclasses.typeclass.rooms
+18-11-10 19:47:40-06 [::]     evennia.typeclass.rooms
+18-11-10 19:47:40-06 [::]     evennia.contrib.typeclass.rooms
+18-11-10 19:47:40-06 [::]     evennia.contrib.tutorial_examples.typeclass.rooms
+18-11-10 19:47:40-06 [EE] User input was: '@create street;road;outside:typeclass.rooms'.
+18-11-10 19:48:00-06 [::] Traceback (most recent call last):
+18-11-10 19:48:00-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\commands\cmdhandler.py", line 591, in _run_command
+18-11-10 19:48:00-06 [::]     ret = cmd.func()
+18-11-10 19:48:00-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\commands\default\building.py", line 524, in func
+18-11-10 19:48:00-06 [::]     locks=lockstring, report_to=caller)
+18-11-10 19:48:00-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\utils\create.py", line 109, in create_object
+18-11-10 19:48:00-06 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+18-11-10 19:48:00-06 [::]   File "c:\users\alex\madhacks\evennia\evennia\utils\utils.py", line 1457, in class_from_module
+18-11-10 19:48:00-06 [::]     raise ImportError("the path '%s' is not on the form modulepath.Classname." % path)
+18-11-10 19:48:00-06 [::] ImportError: the path 'room' is not on the form modulepath.Classname.
+18-11-10 19:48:00-06 [EE] User input was: '@create street;road;outside:room'.
+18-11-10 19:52:51-06 [..] Logged out: admin(account 1) 127.0.0.1 (0 sessions(s) remaining)
+18-11-10 19:53:28-06 [..] Server disconnected from the portal.
+18-11-10 19:53:28-06 Main loop terminated.
+18-11-10 19:53:28-06 Server Shut Down.
+18-11-10 19:53:28-06 Server Shut Down.
+18-11-10 20:13:52-06 Loading c:\users\alex\madhacks\evennia\evennia\server\server.py...
+18-11-10 20:13:53-06 Loaded.
+18-11-10 20:13:53-06 twistd 18.9.0 (c:\users\alex\madhacks\evenv\scripts\python.exe 2.7.15) starting up.
+18-11-10 20:13:53-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+18-11-10 20:13:53-06 Webserver starting on 4005
+18-11-10 20:13:53-06 Evennia Server successfully started.
+18-11-10 20:14:33-06 [..] Logged in: admin(account 1) 127.0.0.1 (1 session(s) total)
