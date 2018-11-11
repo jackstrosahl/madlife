@@ -31,6 +31,22 @@ class Command(BaseCommand):
     """
     pass
 
+
+
+class Attack(Command):
+    """
+    Usage: attack [character] [weapon]
+    If you are not carrying a weapon, type fists as your weapon
+    """
+    key = "attack"
+    aliases = ["kill", "slaughter", "maul", "shoot"]
+
+    def func(self):
+        if not self.args:
+            self.caller.msg("attack [character] [weapon]")
+        else:
+            self.caller.msg("You slapped this ho")
+
 # -------------------------------------------------------------
 #
 # The default commands inherit from

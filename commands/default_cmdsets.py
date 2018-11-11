@@ -15,7 +15,7 @@ own cmdsets by inheriting from them or directly from `evennia.CmdSet`.
 """
 
 from evennia import default_cmds
-
+from commands.command import Attack
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
     """
@@ -52,6 +52,7 @@ class AccountCmdSet(default_cmds.AccountCmdSet):
         #
         # any commands you add below will overload the default ones.
         #
+        self.add(Attack())
 
 
 class UnloggedinCmdSet(default_cmds.UnloggedinCmdSet):
