@@ -37,19 +37,18 @@ class Attack(Command):
     Usage: attack [character] [weapon]
     If you are not carrying a weapon, type fists as your weapon
     """
-    key = "attack"
-    aliases = ["kill", "slaughter", "maul", "shoot"]
+    key = "slap"
+    aliases = ["poke"]
 
     def func(self):
         if not self.args:
-            self.caller.msg("attack [character]")
+            self.caller.msg("poke <character>")
         else:
             target = self.caller.search(self.args)
             if not target:
                 return
-            target.msg("You've been slapped")
-            target.get_hit(10)
-            self.caller.msg("You slapped")
+            target.msg("You've been slapped by " + self)
+            self.msg("You slapped " + target)
 
 # -------------------------------------------------------------
 #

@@ -35,12 +35,3 @@ class Character(DefaultCharacter):
     def at_object_creation(self):
         self.cmdset.add("commands.custom_cmdsets.CharacterCmdSet", True)
     pass
-
-    def get_hit(self, damage):
-        self.health -= damage
-        self.caller.msg("You got slapped")
-        if self.health < 0:
-            self.move_to(self, None, True, None, None, True, False)
-            self.caller.msg("You died, dumbass")
-            self.health = 10
-    pass
