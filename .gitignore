@@ -3,6 +3,8 @@
 # C extensions
 *.so
 
+*.log
+
 # Packages
 *.egg
 *.egg-info
@@ -21,6 +23,7 @@ __pycache__
 # Installer logs
 pip-log.txt
 
+# Other
 *.log
 
 # Unit test / coverage reports
