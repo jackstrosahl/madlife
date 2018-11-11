@@ -9,6 +9,7 @@ creation commands.
 """
 from evennia import DefaultCharacter
 from evennia import create_object
+from typeclasses.objects import Beer
 
 
 class Character(DefaultCharacter):
@@ -34,5 +35,17 @@ class Character(DefaultCharacter):
 
     def at_object_creation(self):
         self.cmdset.add("commands.custom_cmdsets.CharacterCmdSet", True)
-        self.contents[0] = create_object("typeclasses.objects.Beer", "beer")
+    pass
+
+    def at_after_move(self):
+        super()
+        has_beer = False
+        for obj in self.contents:
+            if isinstance(obj, Beer):
+                has_beer = True
+                pass
+
+        if not has_beer:
+            self.contents.append("typeclasses.objects.Beer", "beer")
+        pass
     pass
