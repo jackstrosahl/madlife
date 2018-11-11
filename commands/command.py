@@ -53,7 +53,7 @@ class Attack(Command):
             pass
         pass
     pass
-pass
+
 
 class DrinkBeer(Command):
     """
